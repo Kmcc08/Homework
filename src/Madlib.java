@@ -1,40 +1,27 @@
 public class Madlib {
-    int decimalBiggerThan1;
-    String classmate;
-    String city;
-    String noun;
-    String pluralNoun;
-    String adjective;
-    String pluralAnimal;
-    String trueOrFalse;
-    int number1;
-    int number2;
-    int wholeNumberBetween1And4;
-    String letterGrade;
-    String miltonTeacher;
-    String miltonDean;
-    String season;
-    String story;
+
+    public static void main(String[] args) {
+        Madlib myStory = new Madlib();
+    }
 
     public Madlib() {
-        season = "summer";
-        miltonDean = "Mrs. Swain";
-        miltonTeacher = "Mrs. Millet";
-        letterGrade = "D";
-        wholeNumberBetween1And4 = 3;
-        number2 = 1000;
-        number1 = 5;
-        trueOrFalse = "True";
-        pluralAnimal = "Unicorns";
-        adjective = "spicy";
-        pluralNoun = "legos";
-        noun = "sponge";
-        city = "New York";
-        classmate = "Jace Livigni";
-        decimalBiggerThan1 = 75;
+       String season = "summer";
+        String miltonDean = "Mrs. Swain";
+        String miltonTeacher = "Mrs. Millet";
+        String letterGrade = "D";
+       int wholeNumberBetween1And4 = 3;
+       int number2 = 1000;
+       int number1 = 5;
+        String trueOrFalse = "True";
+        String  pluralAnimal = "Unicorns";
+        String adjective = "spicy";
+        String  pluralNoun = "legos";
+        String noun = "sponge";
+        String city = "New York";
+        String classmate = "Jace Livigni";
+       int decimalBiggerThan1 = 75;
 
-
-        story = "This weekend I am going camping with "
+       String story = "This weekend I am going camping with "
                 + classmate + ". We are going to a campsite in "
                 + city + ". I packed my " + noun + " and "
                 + pluralNoun + ". The forecast is calling for a high of "
@@ -46,7 +33,11 @@ public class Madlib {
                 + miltonDean + " said it actually has only happened "
                 + number2 + " times. Wish us luck! If we survive, we will earn a "
                 + letterGrade + "- in P.E. class.";
+
+        System.out.println(story);
     }
+
+
 }
 
 
